@@ -11,4 +11,4 @@ Since the subtree under the prefix node is completely traversed in order to find
 O(n) where n is the number of node in the subtree.
 
 ## Space complexity
-Space complexity is constant because no extra space used is in relation with input size.
+Space complexity of Trie is O(m) where m is the number of word in the Trie.

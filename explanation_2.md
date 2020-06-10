@@ -22,4 +22,11 @@ The time complexity of first step is in the order of O(log(n)). The second step 
 step is binary search which takes O(log(n)) time. Therefore the overall time complexity is in the order of O(log(n)).
 
 ## Space complexity
-The extra space needed is constant.
+The space complexity O(logn).
+
+Reference:  https://www.ideserve.co.in/learn/time-and-space-complexity-of-recursive-algorithms
+
+To conclude, space complexity of recursive algorithm is proportional to maximum depth of recursion tree generated. If 
+each function call of recursive algorithm takes O(m) space and if the maximum depth of recursion tree is 'n' then space 
+complexity of recursive algorithm would be O(nm). In the case of this problem, each call uses O(1) space, the maximum 
+depth of the recursive tree is O(logn) so the space complexity is O(logn).
